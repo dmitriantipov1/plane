@@ -28,7 +28,11 @@ body {
 .place:hover {
 }
 
-.place-disabled {
+.g-wrap.place-disabled {
+}
+
+#left-wing{
+	fill: white;
 }
 
 
