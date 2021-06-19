@@ -10,28 +10,20 @@
 </head>
 <body>
 <div class="wrap">
+
     <section class="tickets">
         <div class="tickets__wrapper">
-            <div class="ticket-card">
-                <div class="ticket-card__item">
-                    <p class="ticket-card__option">Row</p>
-                    <p class="ticket-card__option--value">7</p>
-                </div>
-                <div class="ticket-card__item">
-                    <p class="ticket-card__option">Place</p>
-                    <p class="ticket-card__option--value">C</p>
-                </div>
-				<span class="ticket-card__delete-btn"></span>
-            </div>
+
 			<div class="ticket-price">
 				<p class="ticket-price__title">Total:</p>
-				<p class="ticket-price__price"><span class="ticket-price__num">440</span>грн</p>
+				<p class="ticket-price__price"><span id="price" class="ticket-price__num"></span>грн</p>
 			</div>
             <div class="ticket-button__wrapper">
                 <input type="button" class="ticket-button" value="order">
             </div>
         </div>
     </section>
+
     <svg viewBox="0 0 560 3102">
         <symbol id="seatPrefix__seat-source" stroke-width="2">
             <path d="M6,25 L32,25 L32,6 C32,3.23857625 29.7614237,1 27,1 L11,1 C8.23857625,1 6,3.23857625 6,6 L6,25 Z"></path>
@@ -92,7 +84,7 @@
         </g>
         <g transform="translate(0,40)">
 
-            <g onclick="changerect(event)">
+            <g >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(140,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -109,7 +101,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -126,7 +118,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -143,7 +135,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(300,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -160,7 +152,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(340,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -177,7 +169,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(380,340)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="1" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -194,7 +186,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -211,7 +203,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -228,7 +220,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -245,7 +237,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -262,7 +254,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -279,7 +271,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,410)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="2" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -296,7 +288,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -313,7 +305,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -330,7 +322,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -347,7 +339,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -364,7 +356,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -381,7 +373,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,480)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="3" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -398,7 +390,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -415,7 +407,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -432,7 +424,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -449,7 +441,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -466,7 +458,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -483,7 +475,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,550)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="4" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -500,7 +492,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -517,7 +509,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -534,7 +526,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -551,7 +543,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -568,7 +560,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -585,7 +577,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,620)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="5" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -602,7 +594,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -619,7 +611,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -636,7 +628,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -653,7 +645,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -670,7 +662,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -687,7 +679,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,690)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="6" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -704,7 +696,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -721,7 +713,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -738,7 +730,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -755,7 +747,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -772,7 +764,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -789,7 +781,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,760)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="7" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -806,7 +798,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -823,7 +815,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -840,7 +832,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -857,7 +849,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -874,7 +866,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -891,7 +883,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,830)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="8" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -908,7 +900,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -925,7 +917,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -942,7 +934,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -959,7 +951,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -976,7 +968,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -993,7 +985,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,900)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="9" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1010,7 +1002,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1027,7 +1019,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1044,7 +1036,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1061,7 +1053,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1078,7 +1070,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1095,7 +1087,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,970)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="10" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1112,7 +1104,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1129,7 +1121,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1146,7 +1138,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1163,7 +1155,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1180,7 +1172,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1197,7 +1189,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1040)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="11" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1214,7 +1206,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1231,7 +1223,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1248,7 +1240,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1265,7 +1257,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1282,7 +1274,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1299,7 +1291,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1110)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="12" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1316,7 +1308,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1333,7 +1325,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1350,7 +1342,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1367,7 +1359,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1384,7 +1376,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1401,7 +1393,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1180)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="13" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1418,7 +1410,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1435,7 +1427,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1452,7 +1444,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1469,7 +1461,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1486,7 +1478,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1503,7 +1495,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1250)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="14" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1520,7 +1512,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1537,7 +1529,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1554,7 +1546,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1571,7 +1563,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1588,7 +1580,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1605,7 +1597,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1320)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="15" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1622,7 +1614,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1639,7 +1631,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1656,7 +1648,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1673,7 +1665,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1690,7 +1682,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1707,7 +1699,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1390)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="16" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1724,7 +1716,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1741,7 +1733,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1758,7 +1750,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1775,7 +1767,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1792,7 +1784,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1809,7 +1801,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1460)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="17" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1826,7 +1818,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1843,7 +1835,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1860,7 +1852,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1877,7 +1869,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1894,7 +1886,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1911,7 +1903,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1530)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="18" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1928,7 +1920,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1945,7 +1937,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1962,7 +1954,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1979,7 +1971,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -1996,7 +1988,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2013,7 +2005,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1600)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="19" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2030,7 +2022,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2047,7 +2039,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2064,7 +2056,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2081,7 +2073,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2098,7 +2090,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2115,7 +2107,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1670)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="20" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2132,7 +2124,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2149,7 +2141,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2166,7 +2158,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2183,7 +2175,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2200,7 +2192,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2217,7 +2209,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1740)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="21" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2234,7 +2226,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2251,7 +2243,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2268,7 +2260,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2285,7 +2277,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2302,7 +2294,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2319,7 +2311,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1810)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="22" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2336,7 +2328,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2353,7 +2345,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2370,7 +2362,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2387,7 +2379,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2404,7 +2396,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2421,7 +2413,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1880)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="23" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2438,7 +2430,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2455,7 +2447,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2472,7 +2464,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2489,7 +2481,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2506,7 +2498,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2523,7 +2515,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,1950)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="24" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2540,7 +2532,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2557,7 +2549,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2574,7 +2566,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2591,7 +2583,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2608,7 +2600,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2625,7 +2617,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2020)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="25" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2642,7 +2634,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2659,7 +2651,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2676,7 +2668,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2693,7 +2685,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2710,7 +2702,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2727,7 +2719,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2090)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="26" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2744,7 +2736,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2761,7 +2753,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2778,7 +2770,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2795,7 +2787,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2812,7 +2804,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2829,7 +2821,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2160)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="27" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2846,7 +2838,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2863,7 +2855,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2880,7 +2872,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2897,7 +2889,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2914,7 +2906,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2931,7 +2923,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(380,2230)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="28" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2948,7 +2940,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(140,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2965,7 +2957,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2982,7 +2974,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -2999,7 +2991,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3016,7 +3008,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3033,7 +3025,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place-disabled" stroke-width="2" transform="translate(380,2300)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="29" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3050,7 +3042,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3067,7 +3059,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3084,7 +3076,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3101,7 +3093,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3118,7 +3110,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3135,7 +3127,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2370)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="30" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3152,7 +3144,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3169,7 +3161,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3186,7 +3178,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3203,7 +3195,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3220,7 +3212,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3237,7 +3229,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2440)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="31" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3254,7 +3246,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3271,7 +3263,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3288,7 +3280,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3305,7 +3297,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3322,7 +3314,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3339,7 +3331,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2510)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="32" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3356,7 +3348,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3373,7 +3365,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3390,7 +3382,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3407,7 +3399,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3424,7 +3416,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3441,7 +3433,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2580)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="33" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3458,7 +3450,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3475,7 +3467,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3492,7 +3484,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3509,7 +3501,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3526,7 +3518,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3543,7 +3535,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2650)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="34" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3560,7 +3552,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3577,7 +3569,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3594,7 +3586,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3611,7 +3603,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3628,7 +3620,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3645,7 +3637,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2720)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="35" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3662,7 +3654,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3679,7 +3671,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3696,7 +3688,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3713,7 +3705,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3730,7 +3722,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3747,7 +3739,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2790)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="36" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3764,7 +3756,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(140,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="A">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3781,7 +3773,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(180,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="B">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3798,7 +3790,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(220,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="C">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3815,7 +3807,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(300,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="D">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3832,7 +3824,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(340,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="E">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3849,7 +3841,7 @@
                 </g>
             </g>
 
-            <g onclick="changerect(event)">
+            <g  >
                 <g class="g-wrap place" stroke-width="2" transform="translate(380,2860)" data-user-id="1"
                    data-hash="KBP_BUS" data-position-row="37" data-position-place="F">
                     <g class="place-man" fill="#FFFFFF" stroke-width="2" transform="translate(10.000000, 3.000000)">
@@ -3866,8 +3858,8 @@
                 </g>
             </g>
 
-            <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="360"> 1</text>
             <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="430"> 2</text>
+            <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="360"> 1</text>
             <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="500"> 3</text>
             <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="570"> 4</text>
             <text class="row-num" fill="#CCCCCC" text-anchor="middle" x="280" y="640"> 5</text>
@@ -3906,5 +3898,8 @@
         </g>
     </svg>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
 </body>
 </html>
