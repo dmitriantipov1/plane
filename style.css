@@ -39,9 +39,16 @@ body {
 	stroke: #eccea4;
 }
 
+.place.disabled{
+	stroke: #CCCCCC;
+	fill: #fff;
+	cursor: auto;
+}
+
 .g-wrap.place-disabled {
 	stroke: #CCCCCC;
 	fill: #fff;
+	cursor: auto;
 }
 
 #left-wing{
