@@ -1,27 +1,54 @@
+const reservedTickets = []
+let sum = 0
 $(function () {
-    const reservedTickets = []
 
-    $('.place').on('click', function () {
-        let price = $(this).children('.place-cost').text()
-        let place = $(this).attr('data-position-place')
-        let row = $(this).attr('data-position-row')
-        let ticketData = {place, row, price}
+    $('.ticket-price__num').text(sum)
+
+    function sumTicketsPrice(ticketData) {
+
+    }
+
+    function subtractionTicketsPrice(ticketData){
+
+    }
+
+    function addTicket(ticketData) {
         reservedTickets.push(ticketData)
-        $(this).addClass('reserved')
-        let lastTicked = reservedTickets.pop()
-        $('.tickets__wrapper').prepend(`
-        <div class="ticket-card hidden">
+        let lastTicket = reservedTickets.pop()
+        let ticket = `<div id="${lastTicket.id}" class="ticket-card ">
                 <div class="ticket-card__item">
                     <p class="ticket-card__option">Row:</p>
-                    <p id="row" class="ticket-card__option--value">${lastTicked.row}</p>
+                    <p row-id="row" class="ticket-card__option--value">${lastTicket.row}</p>
                 </div>
                 <div class="ticket-card__item">
                     <p class="ticket-card__option">Place:</p>
-                    <p id="place" class="ticket-card__option--value">${lastTicked.place}</p>
+                    <p place-id="place" class="ticket-card__option--value">${lastTicket.place}</p>
                 </div>
-                <span id="ticket-card__delete-btn" class="ticket-card__delete-btn"></span>
-            </div>`)
-        $('.ticket-card').removeClass('hidden')
+                <div class="ticket-card__item">
+                    <p class="ticket-card__option">Place:</p>
+                    <p price-id="place" class="ticket-card__option--value">${lastTicket.price}грн</p>
+                </div>
+            </div>`
+        $('.tickets__wrapper').prepend(ticket)
+        sumTicketsPrice(ticketData)
+
+    }
+
+    function removeTicket(ticketData) {
+        let ticketId = ticketData.id
+        $(`.ticket-card[id='${ticketId}']`).remove()
+    }
+
+
+    $('.place').on('click', function () {
+        $(this).toggleClass('reserved')
+        let price = $(this).children('.place-cost').text()
+        let place = $(this).attr('data-position-place')
+        let row = $(this).attr('data-position-row')
+        let id = $(this).attr('data-user-id')
+        let ticketData = {id, place, row, price}
+        $(this).is('.reserved') ? addTicket(ticketData) : removeTicket(ticketData)
     })
+
 
 })
