@@ -4,13 +4,16 @@
 цвет обводки при наведении: #eccea4;
 цвет обводки при заблокированном сидении #CCCCCC;*/
 
-
+p{
+	margin: 0;
+	padding: 0;
+}
 body {
 	background: #291c4b;
 }
 .wrap{
 	overflow: hidden;
-	max-width: 800px;
+	max-width: 400px;
     font: normal 16px "Open Sans", Arial;
     line-height: normal;
     font-family: "Open Sans", Arial;
@@ -20,15 +23,36 @@ body {
 }
 
 .tail-aircutter-flip {
-    /*починить крило можно тут*/
+	transform: scale(-1, 1);
 }
 
 .place {
+	stroke: #A4C2EC;
+	fill: #fff;
 }
 .place:hover {
+	stroke: #eccea4;
+	cursor: pointer;
 }
 
-.place-disabled {
+.place.reserved{
+	stroke: #eccea4;
+}
+
+.place.disabled{
+	stroke: #CCCCCC;
+	fill: #fff;
+	cursor: auto;
+}
+
+.g-wrap.place-disabled {
+	stroke: #CCCCCC;
+	fill: #fff;
+	cursor: auto;
+}
+
+#left-wing{
+	fill: white;
 }
 
 
@@ -40,4 +64,100 @@ body {
 
 .place-currency{
 	font-size: 10px;
+}
+
+.tickets{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.ticket-card{
+	background: #B64B65;
+	border-radius: 5px;
+	color: #291C4B;
+	width: 250px;
+	margin: 5px 0;
+	padding: 5px 0;
+}
+
+.ticket-card__item{
+	display: flex;
+	justify-content: space-around;
+}
+
+.ticket-price{
+	display: flex;
+	justify-content: space-between;
+	color: #B64B65;
+}
+
+.ticket-price__title,
+.ticket-card__option{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.ticket-card__delete-btn{
+	display: block;
+	width:12px;
+	height: 12px;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+	padding: 5px 0px;
+}
+
+.ticket-card__delete-btn::after{
+	content: "";
+	width: 12px;
+	height: 3px;
+	background: #291C4B;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotate(45deg);
+}
+
+.ticket-card__delete-btn::before{
+	content: "";
+	width: 12px;
+	height: 3px;
+	background: #291C4B;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: rotate(-45deg);
+}
+
+.ticket-price{
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.ticket-button__wrapper{
+	text-align: center;
+}
+.ticket-button{
+	width: 100px;
+	padding: 5px 10px;
+	background: #B64B65;
+	color: #291C4B;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.ticket-button:hover{
+	background: #291C4B;
+	color: #B64B65;
+	border: 1px solid #B64B65;
+	transition: all 0.5s ease;
+}
+
+.hidden{
+	display: none;
 }
